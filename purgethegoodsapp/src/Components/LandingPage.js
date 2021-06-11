@@ -4,7 +4,7 @@ import logo from '../Images/purge.png';
 
 const LandingPage = () => {
     return (
-        <div>
+        <div className= "container">
           <img
             src= {logo}
             alt="Purge Logo"/>
