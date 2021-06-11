@@ -1,7 +1,7 @@
 import React from 'react';
 import {Card, Navbar} from 'react-bootstrap';
 import UserPhoto from '../Images/UserPhoto.jpg';
-import Purge from '../Images/Purge.png';
+import Purge from '../Images/purge.png';
 import facebook from '../Images/facebook-icon.png';
 import twitter from '../Images/twitter-icon.png';
 import linkedIn from '../Images/linkedIn-icon.png';
@@ -17,7 +17,7 @@ const UserProfile = () => {
             </Navbar>
             
             <div className='container-card'>
-                <Card className='card-item' style={{width:'18rem'}}>
+                <Card className='card-item'>
                     <Card.Img variant="top" className='Avatar' width='70px' src = {UserPhoto} alt='UserPhoto'/>
                     <Card.Body>
                         <Card.Title>Name</Card.Title>

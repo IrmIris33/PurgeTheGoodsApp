@@ -2,8 +2,6 @@ import React from 'react';
 import './CSS/UserProfile.css';
 import './CSS/LogIn.css';
 import './CSS/App.css';
-
-
 import LandingPage from './Components/LandingPage';
 //import LogIn from './Components/LogIn.js';
 //import UserProfile from './Components/UserProfile.js';
@@ -16,7 +14,7 @@ function App() {
     <div className="App">
 
       <LandingPage />
-       {/*<LogIn />
+      {/*<LogIn />
       <UserProfile />
       <Categories />
       <ProductPage />
