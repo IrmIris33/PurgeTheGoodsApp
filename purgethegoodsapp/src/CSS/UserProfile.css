@@ -1,0 +1,24 @@
+.container {
+    margin: 50px 50px;
+    width: 484px;
+    height: 896px;
+}
+
+.Navbar{
+    text-align: right;
+}
+
+
+.card-item {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px grey;
+    display: flex;
+    flex-wrap: nowrap;
+    color: black;
+}
+
+.Avatar {
+    padding: 5px;
+}

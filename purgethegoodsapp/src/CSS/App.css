@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100%;
+  text-align: left;
+  background-color: black;
+  color:white;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
