@@ -16,11 +16,11 @@ function App() {
     <div className="App">
 
       <LandingPage />
-      {/*<LogIn />
+       {/*<LogIn />
       <UserProfile />
       <Categories />
       <ProductPage />
-      {/*<Checkout />*/}
+      <Checkout />*/}
        
     </div>
   );

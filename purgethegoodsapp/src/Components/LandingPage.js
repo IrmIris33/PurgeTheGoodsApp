@@ -1,46 +1,57 @@
 import React from 'react';
 import {Carousel} from 'react-bootstrap';
-import logo from '../Images/Purge.png';
+import logo from '../Images/purge.png';
 
 
 const LandingPage = () => {
     return (
         <div>
-                <Carousel>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src= {logo}
-                    alt="First slide"
-                  />
-                  <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src="holder.js/800x400?text=Second slide&bg=282c34"
-                    alt="Second slide"
-                  />
-                  <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src="holder.js/800x400?text=Third slide&bg=20232a"
-                    alt="Third slide"
-                  />
-                  <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-              </Carousel>
+          <Carousel>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src= {logo}
+                alt="First slide"/>
+              <Carousel.Caption>
+                <p>Purge items you no longer use or pick up something new, quick and easy!</p>
+              </Carousel.Caption>
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="holder.js/800x400?text=Second slide&bg=282c34"
+                alt="Second slide"/>
+              <Carousel.Caption>
+                <h3>HOW DOES IT WORK?</h3>
+                <p>Donor</p>
+                <ul>
+                  <li>Log In</li>
+                  <li>Create a profile </li>
+                  <li>Add photos of items with pick up location </li>
+                  <li>Then watch your items purge from your list </li>
+                </ul>
+              </Carousel.Caption>
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="holder.js/800x400?text=Third slide&bg=20232a"
+                alt="Third slide"/>
+              <Carousel.Caption>
+              <p>Recipient</p>
+                <ul>
+                  <li>Log In</li>
+                  <li>Create a profile </li>
+                  <li>Swipe through items </li>
+                  <li>Click on the heart to choose the item </li>
+                  <li>Review and accept instructions and disclaimer </li>
+                  <li>Pick up item at designated location </li>
+               </ul>
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
         </div>
     );
 };
